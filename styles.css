@@ -1,0 +1,9 @@
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Garamond, serif;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-size: 80%
+}
