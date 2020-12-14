@@ -30,7 +30,7 @@ h2 {
     font-family: Garamond, serif;
 }
 
-.colors {
+.intro {
     color: coral;
     border: 1px solid coral;
 }
@@ -56,29 +56,29 @@ img {
     max-width: 70%;
 }
 
-#w {
-    color: white
-    border: 1px solid white;
+#white {
+    color: rgb(241, 238, 185);
+    border: 1px solid rgb(241, 238, 185);
 }
 
-#u {
-    color: blue
-    border: 1px solid blue;
+#blue {
+    color: rgb(45, 184, 226);
+    border: 1px solid rgb(45, 184, 226);
 }
 
-#b {
-    color: black
-    border: 1px solid black;
+#black {
+    color: rgb(83, 3, 129);
+    border: 1px solid rgb(83, 3, 129);
 }
 
-#r {
-    color: red
-    border: 1px solid red;
+#red {
+    color: rgb(233, 64, 64);
+    border: 1px solid rgb(233, 64, 64);
 }
 
-#g {
-    color: green
-    border: 1px solid green;
+#green {
+    color: rgb(20, 170, 83);
+    border: 1px solid rgb(20, 170, 83);
 }
 
 footer {
