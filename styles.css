@@ -1,11 +1,30 @@
+/* This sheet is a goddamn mess. Please send help w/r/t stylesheet organization.*/
+
 body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(30, 30, 30);
     color: white;
     font-size: 100%
+}
+
+section {
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid white;
+}
+
+section, h2 {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+section, p {
+    margin: 0;
+    padding: 10px;
 }
 
 header {
@@ -15,7 +34,7 @@ header {
 
 figure {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     text-align: center;
 }
 
@@ -25,4 +44,14 @@ figcaption {
 
 h2 {
     font-family: Garamond, serif;
+}
+
+img {
+    width: 70%;
+    max-width: 70%;
+}
+
+footer {
+    margin: 10px;
+    padding: 10px;
 }
