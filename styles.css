@@ -1,4 +1,7 @@
 /* This sheet is a goddamn mess. Please send help w/r/t stylesheet organization.*/
+html {
+    background-color: black;
+}
 
 body {
     width: 100%;
@@ -10,26 +13,32 @@ body {
     font-size: 100%
 }
 
-section {
-    margin: 10px;
+header {
+    margin: 0 auto;
+    font-family: Garamond, serif;
+    text-align: center;
     padding: 30px;
     border: 1px solid white;
 }
 
-section, h2 {
+section {
+    margin: 10px;
+    padding: 30px;
+}
+
+h2 {
+    font-family: Garamond, serif;
+}
+
+.colors {
+    color: coral;
+    border: 1px solid coral;
+}
+
+h2, p {
     margin: 0;
     padding: 10px;
     border: 1px solid white;
-}
-
-section, p {
-    margin: 0;
-    padding: 10px;
-}
-
-header {
-    font-family: Garamond, serif;
-    text-align: center;
 }
 
 figure {
@@ -42,16 +51,37 @@ figcaption {
     font-style: italic;
 }
 
-h2 {
-    font-family: Garamond, serif;
-}
-
 img {
     width: 70%;
     max-width: 70%;
 }
 
+#w {
+    color: white
+    border: 1px solid white;
+}
+
+#u {
+    color: blue
+    border: 1px solid blue;
+}
+
+#b {
+    color: black
+    border: 1px solid black;
+}
+
+#r {
+    color: red
+    border: 1px solid red;
+}
+
+#g {
+    color: green
+    border: 1px solid green;
+}
+
 footer {
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
 }
